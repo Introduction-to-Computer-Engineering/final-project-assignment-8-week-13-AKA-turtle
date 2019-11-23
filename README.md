@@ -9,11 +9,11 @@
     - Video: https://imgur.com/gallery/6ou3KQq
     - file: [pwm.js](pwm.js)
   
-  - This write up is for the loop in the program that varies the duty cycle of the LED.
-    - Video: http://imgur.com/gallery/I8iRtUu
+  - Video demo showing PWM stepping up and down between 5% - 95% in 5% increments
+    - Video: https://imgur.com/gallery/3xs44SJ
     - file: [pwCycle.js](pwCycle.js)
   
-  - This write up is the servo connection also with the duty cycle of the LED being controled by the movement of the servo.
+  - Video demo of PWM duty cycle driving movement of servo.
     - Video: http://imgur.com/gallery/RdFtBsm
     - file: [servoOscilloscope.js](servoOscilloscope.js)
 
