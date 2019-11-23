@@ -5,8 +5,8 @@
   - Video demo showing Rigol signal generator with oscilliscope
     - Video: https://imgur.com/gallery/Q0vApBA
    
-  - This write up is for the one line program for the LED and oscilliscope connection.
-    - Video: http://imgur.com/gallery/IUjgB4M
+  - Video demo showing simple micro:bit code PWM of LED with oscilliscope
+    - Video: https://imgur.com/gallery/6ou3KQq
     - file: [pws.js](pws.js)
   
   - This write up is for the loop in the program that varies the duty cycle of the LED.
