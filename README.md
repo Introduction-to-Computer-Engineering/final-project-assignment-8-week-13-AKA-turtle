@@ -1,6 +1,6 @@
 # links for the Oscilliscope Assignment 8
-  - This write up is for the connection of the built-in function generator.
-    - Demo: http://imgur.com/gallery/hEh2QPw
+  - Video demo showing workstation built in function generator
+    - Demo: https://imgur.com/gallery/fXNBtUk
     
   - This write up is for the connection of the ossiliscope.
     - Demo: http://imgur.com/gallery/7WLgX39
