@@ -1,4 +1,4 @@
-# links for the Oscilliscope Assignment 8
+# Assignment 8 - Signal Generation, Oscilliscope, PWM & I2C 
   - Video demo showing workstation built in function generator
     - Video: https://imgur.com/gallery/fXNBtUk
     
