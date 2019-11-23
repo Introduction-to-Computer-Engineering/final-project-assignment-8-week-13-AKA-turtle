@@ -1,20 +1,20 @@
 # links for the Oscilliscope Assignment 8
   - Video demo showing workstation built in function generator
-    - Demo: https://imgur.com/gallery/fXNBtUk
+    - Video: https://imgur.com/gallery/fXNBtUk
     
-  - This write up is for the connection of the ossiliscope.
-    - Demo: http://imgur.com/gallery/7WLgX39
+  - Video demo showing Rigol signal generator with oscilliscope
+    - Video: https://imgur.com/gallery/Q0vApBA
    
   - This write up is for the one line program for the LED and oscilliscope connection.
-    - Demo: http://imgur.com/gallery/IUjgB4M
+    - Video: http://imgur.com/gallery/IUjgB4M
     - file: [pws.js](pws.js)
   
   - This write up is for the loop in the program that varies the duty cycle of the LED.
-    - Demo: http://imgur.com/gallery/I8iRtUu
+    - Video: http://imgur.com/gallery/I8iRtUu
     - file: [pwCycle.js](pwCycle.js)
   
   - This write up is the servo connection also with the duty cycle of the LED being controled by the movement of the servo.
-    - Demo: http://imgur.com/gallery/RdFtBsm
+    - Video: http://imgur.com/gallery/RdFtBsm
     - file: [servoOscilloscope.js](servoOscilloscope.js)
 
 # I2C Warm Up 
