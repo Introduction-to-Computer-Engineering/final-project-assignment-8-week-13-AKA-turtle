@@ -23,11 +23,12 @@
 2. I2C is a two-wire serial communication channel. What are the two wires, SDA and SCL? 
  - SCL is a Clock Sigal, & SDA is a Data Signal.
 3. What distinguishes the master and the slaves? 
- - The Clock signal being located in the master is the difference between the two.
+ - The master contains a internal master clock which the slaves read externally and sync to.
 4. How are the two types of protocol frames different?
- - the first being the Adress Frame, is where the master lets the slave know where the message needs to be sent triggering one or multiple frames that are 8 bit. The second one being Data Frames, the data first is sent to the SDA which is chosen by the master or slave dependings of the R/W bit was written or read.
+ - the first being the Addess Frame, is where the master lets the slave know where the message needs to be sent triggering one or multiple frames that are 8 bit. The second one being Data Frames, the data first is sent to the SDA which is chosen by the master or slave dependings of the R/W bit was written or read.
 5. What is the most appropriate trigger for capturing an I2C frame on the oscilloscope?
- - the appropriate trigger to go with first is the SDA trigger becasue of its intial falling edge.
+ - We used a combination of triggering off the SCL and SDA.
+    The SDA channel stays low until data is transmitted so the initial rise of the SDA is a good choice in some instances
 # First Steps with I2C
 
 I2C Read & Write Files:
