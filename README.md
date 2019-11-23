@@ -13,7 +13,7 @@
     - Video: https://imgur.com/gallery/3xs44SJ
     - file: [pwCycle.js](pwCycle.js)
   
-  - Video demo of PWM duty cycle driving movement of servo.
+  - ***BONUS*** Video demo of PWM duty cycle driving movement of servo.
     - Video: http://imgur.com/gallery/RdFtBsm
     - file: [servoOscilloscope.js](servoOscilloscope.js)
 
