@@ -7,7 +7,7 @@
    
   - Video demo showing simple micro:bit code PWM of LED with oscilliscope
     - Video: https://imgur.com/gallery/6ou3KQq
-    - file: [pws.js](pws.js)
+    - file: [pwm.js](pwm.js)
   
   - This write up is for the loop in the program that varies the duty cycle of the LED.
     - Video: http://imgur.com/gallery/I8iRtUu
