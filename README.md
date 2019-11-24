@@ -59,7 +59,8 @@
 - much larger amount of data after handshake visable in oscilliscop
 - capture: [writeToInternal.jpg](writeToInternal.jpg)
 - file: [writeInternalNumber.js](writeInternalNumber.js)
-## Section 2: Writing to Read 
+## Section 2: Reading Addresses
+***There are three addresses for both the accelerometer and magnetometer because there a 3 diffirent variants of the micro:bit in circulation. Meaning they'vew had at least 3 varrying production runs in which they tweeked the internal addresses of their sensors***
 **Call to varinat 1.3 accelerometer: we dont have first varinat micro-bit, showed no data.** 
 - capture: [1.3.jpg](1.3.jpg)
 - file: [variant1.3.js](variant1.3.js)
