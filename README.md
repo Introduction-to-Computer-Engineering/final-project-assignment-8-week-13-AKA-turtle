@@ -40,7 +40,7 @@
     The SDA channel stays low until data is transmitted so the initial rise of the SDA is a good choice in some instances
 # First Steps with I2C
 
-I2C Read & Write Files:
+**I2C Read & Write Files:**
 - Read File: [i2cRead.js](i2cRead.js)
 - Write File: [i2cWrite.js](i2cWrite.js)
 
@@ -50,33 +50,33 @@ I2C Read & Write Files:
 - Location of Set Up: [SetUp.jpg](SetUp.jpg)
 ## (once link is opened to file, hit the download button to view the correct resolution of picture)
 
-1. What frame did you capture?
+**1. What frame did you capture?**
 - address frame
-2. What does the I2C write function do when there is nothing connected?
+**2. What does the I2C write function do when there is nothing connected?**
 - gives a blank scl sample reading when it goes from low to high.
 - capture: [writeSignal.jpg](writeSignal.jpg)
-3. Is there a difference in what you capture if you write a number to one of the internal device addresses?
-- much larger amount of data after handshake
+**3. Is there a difference in what you capture if you write a number to one of the internal device addresses?**
+- much larger amount of data after handshake visable in oscilliscop
 - capture: [writeToInternal.jpg](writeToInternal.jpg)
 - file: [writeInternalNumber.js](writeInternalNumber.js)
 ## Section 2: Writing to Read 
-Call to varinat 1.3 accelerometer: we dont have first varinat micro-bit, showed no data. 
+**Call to varinat 1.3 accelerometer: we dont have first varinat micro-bit, showed no data.** 
 - capture: [1.3.jpg](1.3.jpg)
 - file: [variant1.3.js](variant1.3.js)
 
-Call to varinat 1 accelerometer: seems to be communicating with accelerometer.
+**Call to varinat 1 accelerometer: seems to be communicating with accelerometer.**
 - capture: [variant1.jpg](variant1.jpg)
 - file: [variant1.js](variant1.js)
 
-Call to variant 2 accelerometer: call to variant 2 address 0x1E, seems to be communicating with either variant 2s accelerormeter or variant 1 magnetometer.
+**Call to variant 2 accelerometer: call to variant 2 address 0x1E, seems to be communicating with either variant 2s accelerormeter or variant 1 magnetometer.**
 - capture: [variant2.jpg](variant2.jpg)
 - file: [variant2.js](variant2.js)
 
-Signed single byte integers: 
+**Signed single byte integers:** 
 - capture: [signed.jpg](signed.jpg)
 - file: [signed.js](signed.js)
 
-Unsigned single byte integers: 
+**Unsigned single byte integers:** 
 - capture: [unsigned.jpg](unsigned.jpg)
 - file: [unsigned.js](unsigned.js)
 
