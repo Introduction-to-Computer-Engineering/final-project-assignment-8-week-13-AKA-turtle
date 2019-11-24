@@ -1,20 +1,15 @@
 # Assignment 8 - Signal Generation, Oscilliscope, PWM & I2C 
-  - Video demo showing workstation built in function generator
-    - [Video](https://imgur.com/gallery/fXNBtUk)
+  - [Video demo showing workstation built in function generator](https://imgur.com/gallery/fXNBtUk)
     
-  - Video demo showing Rigol signal generator with oscilliscope
-    - Video: https://imgur.com/gallery/Q0vApBA
+  - [Video demo showing Rigol signal generator with oscilliscope](https://imgur.com/gallery/Q0vApBA)
    
-  - Video demo showing simple micro:bit code PWM of LED with oscilliscope
-    - Video: https://imgur.com/gallery/6ou3KQq
+  - [Video demo showing simple micro:bit code PWM of LED with oscilliscope](https://imgur.com/gallery/6ou3KQq)
     - file: [pwm.js](pwm.js)
   
-  - Video demo showing PWM stepping up and down between 5% - 95% in 5% increments
-    - Video: https://imgur.com/gallery/3xs44SJ
+  - [Video demo showing PWM stepping up and down between 5% - 95% in 5% increments](https://imgur.com/gallery/3xs44SJ)
     - file: [pwCycle.js](pwCycle.js)
   
-  - ***BONUS*** Video demo of PWM duty cycle driving movement of servo.
-    - Video: http://imgur.com/gallery/RdFtBsm
+  - ***BONUS*** [Video demo of PWM duty cycle driving movement of servo.](http://imgur.com/gallery/RdFtBsm)
     - file: [servoOscilloscope.js](servoOscilloscope.js)
 
 # I2C Warm Up 
