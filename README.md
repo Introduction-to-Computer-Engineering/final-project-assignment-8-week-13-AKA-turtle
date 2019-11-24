@@ -61,6 +61,7 @@
 - file: [writeInternalNumber.js](writeInternalNumber.js)
 ## Section 2: Reading Addresses
 ***There are three addresses for both the accelerometer and magnetometer because there a 3 different variants of the micro:bit in circulation. Meaning they've had at least 3 production runs in which they tweeked the internal addresses of their sensors***
+
 **Call to varinat 1.3 accelerometer: we dont have first varinat micro-bit, showed no data.** 
 - capture: [1.3.jpg](1.3.jpg)
 - file: [variant1.3.js](variant1.3.js)
