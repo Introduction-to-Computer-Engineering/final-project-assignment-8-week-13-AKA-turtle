@@ -46,9 +46,11 @@
 
 ## section 1: Capturing I2C frame on oscilloscope
 
+*Initial Capture of Oscilliscope shows both the clock signal(in blue) and the data signal(in yellow)
 - Location of Capture of I2C frame: [Capture.jpg](Capture.jpg) 
+*Image of micro:bit setup with probe connections
 - Location of Set Up: [SetUp.jpg](SetUp.jpg)
-## (once link is opened to file, hit the download button to view the correct resolution of picture)
+
 
 **1. What frame did you capture?**
 - address frame
