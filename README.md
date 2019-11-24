@@ -1,7 +1,7 @@
 # Assignment 8 - Signal Generation, Oscilliscope, PWM & I2C 
-  - Video demo showing workstation built in function generator. [-link](https://imgur.com/gallery/fXNBtUk)
+  - [Video](https://imgur.com/gallery/fXNBtUk) demo showing workstation built in function generator.
     
-  - [Video demo showing Rigol signal generator with oscilliscope](https://imgur.com/gallery/Q0vApBA)
+  - [Video] demo showing Rigol signal generator with oscilliscope](https://imgur.com/gallery/Q0vApBA)
    
   - [Video demo showing simple micro:bit code PWM of LED with oscilliscope](https://imgur.com/gallery/6ou3KQq)
     - file: [pwm.js](pwm.js)
