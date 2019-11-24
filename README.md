@@ -22,7 +22,7 @@
  
  - SPI is only intended for short distances, the biggest problem is the pin connection and the number of pins required. Making connections from multiple devices only slaved to one master.  UART is difficult to implent into your software if intended to do so.  This task eats up alot of data and slows the system down.  Where I2C improves in these areas begins with using only 2 wires and being able to connect to 1008 slave devices, the speed isnt as fast as SPI but gets the job done more efficently.
 
-**2. I2C is a two-wire serial communication channel. What are the two wires, SDA and SCL? 
+**2. I2C is a two-wire serial communication channel. What are the two wires, SDA and SCL?**
  
  - SCL is a Clock Sigal, & SDA is a Data Signal.
 
