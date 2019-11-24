@@ -1,5 +1,5 @@
 # Assignment 8 - Signal Generation, Oscilliscope, PWM & I2C 
-  - [Video demo showing workstation built in function generator](https://imgur.com/gallery/fXNBtUk)
+  - Video demo showing workstation built in function generator [video](https://imgur.com/gallery/fXNBtUk)
     
   - [Video demo showing Rigol signal generator with oscilliscope](https://imgur.com/gallery/Q0vApBA)
    
