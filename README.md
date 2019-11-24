@@ -18,7 +18,7 @@
     - file: [servoOscilloscope.js](servoOscilloscope.js)
 
 # I2C Warm Up 
-**1. What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on them?
+**1. What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on them?**
  
  - SPI is only intended for short distances, the biggest problem is the pin connection and the number of pins required. Making connections from multiple devices only slaved to one master.  UART is difficult to implent into your software if intended to do so.  This task eats up alot of data and slows the system down.  Where I2C improves in these areas begins with using only 2 wires and being able to connect to 1008 slave devices, the speed isnt as fast as SPI but gets the job done more efficently.
 
@@ -26,15 +26,15 @@
  
  - SCL is a Clock Sigal, & SDA is a Data Signal.
 
-**3. What distinguishes the master and the slaves? 
+**3. What distinguishes the master and the slaves?**
  
  - The master contains a internal master clock which the slaves read externally and sync to.
 
-**4. How are the two types of protocol frames different?
+**4. How are the two types of protocol frames different?**
 
 - the first being the Addess Frame, is where the master lets the slave know where the message needs to be sent triggering one or multiple frames that are 8 bit. The second one being Data Frames, the data first is sent to the SDA which is chosen by the master or slave dependings of the R/W bit was written or read.
 
-**5. What is the most appropriate trigger for capturing an I2C frame on the oscilloscope?
+**5. What is the most appropriate trigger for capturing an I2C frame on the oscilloscope?**
  
  - We used a combination of triggering off the SCL and SDA.
     The SDA channel stays low until data is transmitted so the initial rise of the SDA is a good choice in some instances
