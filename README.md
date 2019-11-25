@@ -84,10 +84,11 @@
 - file: [unsigned.js](unsigned.js)
 
 Scroll the values on the LED matrix?
- - Reading:
+ - DNC
 
 Can you get different Values from moving thr micro-bit around?
 
+-DNC
  
  
  
